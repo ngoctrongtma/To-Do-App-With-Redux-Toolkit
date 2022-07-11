@@ -23,7 +23,7 @@ function AppToDo() {
       inputRef.current.focus();
     }
     else {
-      alert("không được bỏ trống tên công việc")
+      toast.warning("không được bỏ trống tên công việc");
     }
   }
   function handleToggleJob(jobID) { // set isDone property for job in listToDo.
